@@ -130,3 +130,16 @@ contactp3.textContent = siteContent['contact']['email']
 
 const footer = document.querySelector('footer')
 footer.textContent = siteContent['footer']['copyright']
+
+const links = document.querySelectorAll('a')
+function color(){
+  for(let i = 0; i < links.length; i++){
+    links[i].style.color = 'green'
+  }
+}
+color()
+
+const newLink = document.createElement('a')
+newLink.href = '#contact'
+newLink.textContent = 'contact'
+nav.appendChild(newLink)
