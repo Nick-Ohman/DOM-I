@@ -43,30 +43,24 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
 const firstAnchorTag = document.querySelector('nav > a:nth-child(1)')
-
 firstAnchorTag.textContent = siteContent.nav['nav-item-1']
 
 
 
 const secondAnchorTag = document.querySelector('nav > a:nth-child(2)')
-
 secondAnchorTag.textContent = siteContent.nav['nav-item-2']
 
 
 
 const thirdAnchorTag = document.querySelector('nav > a:nth-child(3)')
-
 thirdAnchorTag.textContent = siteContent.nav['nav-item-3']
 
 
 const fourthAnchorTag = document.querySelector('nav > a:nth-child(4)')
-
 fourthAnchorTag.textContent = siteContent.nav['nav-item-4']
 
 
-
 const fifthAnchorTag = document.querySelector('nav > a:nth-child(5)')
-
 fifthAnchorTag.textContent = siteContent.nav['nav-item-5']
 
 const domIsAwesome1 = document.querySelector('section.cta > div > h1')
@@ -77,7 +71,6 @@ domIsAwesome2.textContent = siteContent.cta['button']
 
 
 const topImg = document.getElementById('cta-img')
-
 topImg.src = 'img/header-img.png'
 
 
@@ -92,7 +85,6 @@ topContent2.textContent = siteContent['main-content']['about-h4']
 
 const topContentp2 = document.querySelector('body > div > section.main-content > div.top-content > div:nth-child(2) > p')
 topContentp2.textContent = siteContent['main-content']['about-content']
-
 
 const middleImg2 = document.getElementById('middle-img')
 middleImg2.src = 'img/mid-page-accent.jpg'
