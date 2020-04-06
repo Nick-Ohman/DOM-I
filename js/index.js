@@ -75,3 +75,58 @@ domIsAwesome1.textContent = siteContent.cta['h1']
 const domIsAwesome2 = document.querySelector('section.cta > div > button')
 domIsAwesome2.textContent = siteContent.cta['button']
 
+
+const topImg = document.getElementById('cta-img')
+
+topImg.src = 'img/header-img.png'
+
+
+const topContent1 = document.querySelector('section.main-content > div.top-content > div:nth-child(1) > h4')
+topContent1.textContent = siteContent['main-content']['features-h4']
+
+const topContentp1 = document.querySelector('body > div > section.main-content > div.top-content > div:nth-child(1) > p')
+topContentp1.textContent = siteContent['main-content']['features-content']
+
+const topContent2 = document.querySelector('section.main-content > div.top-content > div:nth-child(2) > h4')
+topContent2.textContent = siteContent['main-content']['about-h4']
+
+const topContentp2 = document.querySelector('body > div > section.main-content > div.top-content > div:nth-child(2) > p')
+topContentp2.textContent = siteContent['main-content']['about-content']
+
+
+const middleImg2 = document.getElementById('middle-img')
+middleImg2.src = 'img/mid-page-accent.jpg'
+
+const bottomContent1 = document.querySelector('body > div > section.main-content > div.bottom-content > div:nth-child(1) > h4')
+bottomContent1.textContent = siteContent['main-content']['services-h4']
+
+const bottomContentp1 = document.querySelector('body > div > section.main-content > div.bottom-content > div:nth-child(1) > p')
+bottomContentp1.textContent = siteContent['main-content']['services-content']
+
+const bottomContent2 = document.querySelector('body > div > section.main-content > div.bottom-content > div:nth-child(2) > h4')
+bottomContent2.textContent = siteContent['main-content']['product-h4']
+
+const bottomContentp2 = document.querySelector('body > div > section.main-content > div.bottom-content > div:nth-child(2) > p')
+bottomContentp2.textContent = siteContent['main-content']['product-content']
+
+const bottomContent3 = document.querySelector('body > div > section.main-content > div.bottom-content > div:nth-child(3) > h4')
+bottomContent3.textContent = siteContent['main-content']['vision-h4']
+
+const bottomContentp3 = document.querySelector('body > div > section.main-content > div.bottom-content > div:nth-child(3) > p')
+bottomContentp3.textContent = siteContent['main-content']['vision-content']
+
+
+const contact = document.querySelector('body > div > section.contact > h4')
+contact.textContent = siteContent['contact']['contact-h4']
+
+const contactp1 = document.querySelector('body > div > section.contact > p:nth-child(2)')
+contactp1.textContent = siteContent['contact']['address']
+
+const contactp2 = document.querySelector('body > div > section.contact > p:nth-child(3)')
+contactp2.textContent = siteContent['contact']['phone']
+
+const contactp3 = document.querySelector('body > div > section.contact > p:nth-child(4)')
+contactp3.textContent = siteContent['contact']['email']
+
+const footer = document.querySelector('footer')
+footer.textContent = siteContent['footer']['copyright']
