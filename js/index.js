@@ -131,13 +131,7 @@ contactp3.textContent = siteContent['contact']['email']
 const footer = document.querySelector('footer')
 footer.textContent = siteContent['footer']['copyright']
 
-const links = document.querySelectorAll('a')
-function color(){
-  for(let i = 0; i < links.length; i++){
-    links[i].style.color = 'green'
-  }
-}
-color()
+
 
 
 const nav = document.querySelector('nav')
@@ -150,4 +144,12 @@ nav.appendChild(newLink)
 const newLink2 = document.createElement('a')
 newLink2.href = '#stuff'
 newLink2.textContent = 'stuff'
-nav.appendChild(newLink2)
+nav.prepend(newLink2)
+
+const links = document.querySelectorAll('a')
+function color(){
+  for(let i = 0; i < links.length; i++){
+    links[i].style.color = 'green'
+  }
+}
+color()
