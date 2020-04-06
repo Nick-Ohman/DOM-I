@@ -148,6 +148,6 @@ nav.appendChild(newLink)
 
 
 const newLink2 = document.createElement('a')
-newLink2.href = '#stff'
+newLink2.href = '#stuff'
 newLink2.textContent = 'stuff'
 nav.appendChild(newLink2)
