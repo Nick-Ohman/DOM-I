@@ -137,13 +137,13 @@ footer.textContent = siteContent['footer']['copyright']
 const nav = document.querySelector('nav')
 const newLink = document.createElement('a')
 newLink.href = '#contact'
-newLink.textContent = 'contact'
+newLink.textContent = 'Contact'
 nav.appendChild(newLink)
 
 
 const newLink2 = document.createElement('a')
 newLink2.href = '#stuff'
-newLink2.textContent = 'stuff'
+newLink2.textContent = 'Stuff'
 nav.prepend(newLink2)
 
 const links = document.querySelectorAll('a')
